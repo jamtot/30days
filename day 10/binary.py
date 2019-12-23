@@ -8,6 +8,7 @@ def get_binary(int_n):
         binary.append(str(int_n%2))
         int_n = int(int_n/2)
     bin_num = ''.join(reversed(binary))
+    print(bin_num)
     return bin_num
 
 def consecutive_ones(binary_number):
