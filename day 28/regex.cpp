@@ -27,8 +27,8 @@ int main()
         string firstName = firstNameEmailID[0];
 
         string emailID = firstNameEmailID[1];
-        if (regex_search(firstName, namePattern) && 
-        regex_search(emailID, emailPattern))
+        if (regex_match(firstName, namePattern) && 
+        regex_match(emailID, emailPattern))
         {
             newlist.push_back(firstName);
         }
